@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation Landing Page - You Have Been Hacked</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #030a04;
+            color: #4af626;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .screen-container {
+            max-width: 550px;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 40px rgba(74, 246, 38, 0.3);
+            overflow: hidden;
+            background: #000000;
+            border: 2px solid #4af626;
+            margin-bottom: 30px;
+        }
+
+        .hacked-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            filter: brightness(1.1) contrast(1.1);
+        }
+
+        .alert-banner {
+            background-color: #ff1a1a;
+            color: #ffffff;
+            font-family: 'Segoe UI', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            padding: 12px;
+            font-size: 18px;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #4af626;
+        }
+
+        .explanation-box {
+            max-width: 600px;
+            width: 100%;
+            padding: 25px;
+            background-color: #0a140c;
+            border: 1px solid #224426;
+            border-radius: 4px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #d2ffd0;
+        }
+
+        .explanation-box h2 {
+            margin-top: 0;
+            color: #4af626;
+            font-size: 22px;
+            font-family: 'Courier New', monospace;
+            text-transform: uppercase;
+        }
+
+        .domain-breakdown {
+            background-color: #000000;
+            padding: 12px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            word-break: break-all;
+            margin: 20px 0;
+            border: 1px solid #4af626;
+            font-size: 14px;
+        }
+
+        .highlight-fake {
+            color: #8c968a;
+            text-decoration: line-through;
+        }
+
+        .highlight-real {
+            color: #ff3333;
+            font-weight: bold;
+            background-color: rgba(255, 51, 51, 0.15);
+            padding: 2px 4px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Simulation Screen -->
+    <div class="screen-container">
+        <div class="alert-banner">🚨 SIMULATION WARNING 🚨</div>
+        <!-- Ensure this filename matches the exact name of your downloaded green hacker image -->
+        <img src="hacked.png" alt="You Have Been Hacked Matrix Screen" class="hacked-image">
+    </div>
+
+</body>
+</html>
